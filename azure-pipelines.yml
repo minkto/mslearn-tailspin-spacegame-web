@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  name:'Test1'
+pool: 'Test1'
 
 variables:
   buildConfiguration: 'Release'
