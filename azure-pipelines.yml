@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool: 'Test1'
-  demands:
+demands:
   - npm
 
 variables:
