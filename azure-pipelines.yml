@@ -6,8 +6,9 @@
 trigger:
 - master
 
-pool: 'Test1'
-  demands:
+pool:
+  name: 'Test1'
+  demands: 
   - npm
 
 variables:
